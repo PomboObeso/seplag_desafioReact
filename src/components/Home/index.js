@@ -1,28 +1,27 @@
 import './Home.css';
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+import { Pagination } from "swiper";
 
 
 const Home = () => {
     return (
 
         <div className='main__content'>
-            <div className="swiper">
-                <div className="swiper-pagination"></div>
-
-                <div className="swiper-wrapper">
-                    <div className="swiper-slide">
-                        <img src="./img/anuncio1.png" alt='i1'/>
-                    </div>
-                    <div className="swiper-slide">
-                        <img src="./img/anuncio1.png" alt='i1'/>
-                    </div>
-                    <div className="swiper-slide">
-                        <img src="./img/anuncio1.png" alt='i1'/>
-                    </div>
-                </div>
-
-                <div className="swiper-button-prev"></div>
-                <div className="swiper-button-next"></div>
-            </div>
+            <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+                <SwiperSlide>
+                    <img src='./img/anuncio1.png' alt='t1'/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src='./img/anuncio1.png' alt='t1'/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src='./img/anuncio1.png' alt='t1'/>
+                </SwiperSlide>
+            </Swiper>
         </div>
     );
 }
