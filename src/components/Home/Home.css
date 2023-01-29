@@ -10,3 +10,43 @@
 .swiper-slide img {
     width: 100%;
 }
+
+.home__noticias h2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.home__card {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: var(--cinza-card);
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: .5rem;
+    
+}
+
+.card__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.card__conteudo {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.home__btn{
+    margin-top: 1rem;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    background-color: var(--azul-main);
+    color: var(--branco);
+    border-radius: 8px;
+    align-self: end;
+}
