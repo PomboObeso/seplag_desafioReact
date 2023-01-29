@@ -1,0 +1,28 @@
+.subfooter {
+    display: grid;
+    grid-template-areas: 
+    "fundo img midias";
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--azul-main);
+}
+
+.subfooter img {
+    grid-area: img;
+    justify-self: center;
+}
+
+.midias-sociais {
+    grid-area: midias;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.midias-sociais p{
+    color: var(--branco);
+    margin: 0rem 1rem;
+}
+
+.midias-sociais img {
+    margin-right: .5rem;
+}
