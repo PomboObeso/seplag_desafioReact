@@ -24,7 +24,7 @@ const Home = () => {
             </Swiper>
 
             <section className='home__noticias'>
-                <h2>Últimas notícias</h2>
+                <h2>ÚLTIMAS NOTÍCIAS</h2>
                 <div className='home__card'>
                     <div className='card__cabecalho'>
                         <h3>Feriado à vista!</h3>
@@ -52,6 +52,13 @@ const Home = () => {
                     Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.
                     </p>
                     <a href='#' className='home__btn'>Ver mais</a>
+                </div>
+            </section>
+            <section className='home__galeria'>
+                <h2>GALERIA</h2>
+                <div className='home__imagens'>
+                    <img src='./img/galeria1.png' alt='Galeria img'/>
+                    <img src='./img/galeria2.png' alt='Galeria img'/>
                 </div>
             </section>
         </div>

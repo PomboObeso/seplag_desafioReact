@@ -50,3 +50,13 @@
     border-radius: 8px;
     align-self: end;
 }
+
+.home__imagens {
+    margin-top: 1rem;
+    display: flex;
+    column-gap: 1rem;
+}
+
+home__imagens img {
+    width: 10%;
+}
