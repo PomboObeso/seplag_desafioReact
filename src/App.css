@@ -12,6 +12,16 @@
     margin: 0;
 }
 
+main {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "aside main"
+    "footer";
+    grid-template-columns: 1fr 4fr;
+    grid-area: main;
+}
+
 body {
     font-size: 16px;
     font-family: var(--fonte);

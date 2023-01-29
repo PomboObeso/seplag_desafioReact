@@ -1,4 +1,5 @@
 .menu__lateral {
+    grid: aside;
     background-color: var(--azul-main);
 }
 
