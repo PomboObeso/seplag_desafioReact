@@ -1,0 +1,15 @@
+.menu__lateral {
+    background-color: var(--azul-main);
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--branco);
+}
+
