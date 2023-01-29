@@ -22,6 +22,10 @@ const Home = () => {
                     <img src='./img/anuncio1.png' alt='t1'/>
                 </SwiperSlide>
             </Swiper>
+
+            <section className='home__noticias'>
+                
+            </section>
         </div>
     );
 }

@@ -1,0 +1,44 @@
+.container {
+    padding: 180px 0 0 250px;
+}
+
+.error__main {
+    background: url('./img/background-login-404.jpg');
+    background-size: cover;
+
+    width: 100%;
+    min-height: 100vh;
+
+    color: #FFF;
+}
+
+.error__main button {
+    background-color: #AB78F7;
+    box-shadow: 1px 1px 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 40px;
+    border: none;
+
+    color: #FFF;
+    font-weight: bold;
+    font-size: 25px;
+
+    margin-top: 20px;
+    padding: 20px 80px;
+}
+
+.section-text {
+    width: 300px;
+}
+
+.message-title {
+    font-size: 60px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.message-description {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: 300;
+}
