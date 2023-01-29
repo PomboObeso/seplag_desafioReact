@@ -8,7 +8,7 @@ const Header = () => {
                    <li className='header__item'>
                         <h1 className='logotipo'>SEPLAG </h1>
                    </li>
-                   <li className='header__item'>
+                   <li className='header__item ativo'>
                         <a href='#'>HOME</a>
                    </li>
                    <li className='header__item'>
