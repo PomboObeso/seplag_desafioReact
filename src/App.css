@@ -12,12 +12,19 @@
     margin: 0;
 }
 
+body {
+    display: grid;
+    grid-template-areas:
+    'header'
+    'aside main'
+    'subfooter'
+    'footer';
+}
+
 main {
     display: grid;
-    grid-template-areas: 
-    "header"
-    "aside main"
-    "footer";
+    grid-template-areas:
+    "aside main";
     grid-template-columns: 1fr 4fr;
     grid-area: main;
 }

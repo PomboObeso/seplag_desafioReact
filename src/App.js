@@ -1,8 +1,8 @@
 import './App.css';
 import Aside from './components/Aside';
 import Footer from './components/Footer';
-import './components/Header';
 import Header from './components/Header';
+import Home from './components/Home';
 import SubFooter from './components/SubFooter';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <Header/>
       <main>
         <Aside/>
+        <Home/>
       </main>
       <SubFooter/>
       <Footer/>
