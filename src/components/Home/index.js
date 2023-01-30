@@ -24,7 +24,7 @@ const Home = () => {
             </Swiper>
 
             <section className='home__noticias'>
-                <h2>ÚLTIMAS NOTÍCIAS</h2>
+            <h2>ÚLTIMAS NOTÍCIAS</h2>
                 <div className='home__card'>
                     <div className='card__cabecalho'>
                         <h3>Feriado à vista!</h3>
