@@ -1,8 +1,9 @@
 import './App.css';
 import Aside from './components/Aside';
 import Footer from './components/Footer';
+import Galeria from './components/Galeria';
 import Header from './components/Header';
-import Home from './components/Home';
+// import Home from './components/Home';
 import SubFooter from './components/SubFooter';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Header/>
       <main>
         <Aside/>
-        <Home/>
+        {/* <Home/> */}
+        <Galeria/>
       </main>
       <SubFooter/>
       <Footer/>
