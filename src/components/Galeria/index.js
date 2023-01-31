@@ -2,10 +2,10 @@ import './Galeria.css';
 
 const Galeria = () => {
     return(
-        <div className='main__content'>
+        <div className='main__galeria'>
             <section className='galeria__recentes'>
                 <div className='galeria__header>'>
-                    <h2>Recentes</h2>
+                    <h2>RECENTES</h2>
                     <div className='galeria__pesquisa'>
                         <label for='pesquisar' className='pesquisa__label'>
                             <input className='pesquisa__input' type={'search'} id='pesquisar' placeholder='Pesquisar...'></input>
