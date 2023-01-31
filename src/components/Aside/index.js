@@ -6,13 +6,13 @@ const Aside = () => {
         <aside className='menu__lateral'>
             <ul className='menu__lista'>
                 <li className='menu__item-user'>
+                    <img className='logout' src='./icons/logout.svg' alt='Logout'/>
                     <div className='menu__item-usuario'>
                         <img src='./img/user_log.png' alt='Foto perfil'/>
                         <div className='menu__item--info'>
                             <h2>Usuário Teste</h2>
                             <p>Editar Perfil</p>
                         </div>
-                        <img className='logout' src='./icons/logout.svg' alt='Logout'/>
                     </div>
                 </li>
                 <li className='menu__item'>

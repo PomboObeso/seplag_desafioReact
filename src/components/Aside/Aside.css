@@ -28,18 +28,21 @@
 .menu__item-usuario {
     display: flex;
     align-items: center;
-    padding: 2rem 0rem 2rem 0rem;
+    margin-bottom: 1rem;
 }
 
 .menu__item-usuario img:nth-child(1){
-    width: 30%;
+    width: 35%;
     margin-right: .5rem;
 }
 
 .logout{
+    text-align: end;
     align-self: start;
-    justify-self: flex-end;
+    justify-self: end;
     width: 10%;
+    padding-left: 250px;
+    padding-top: .5rem;
 }
 
 .menu__item--info {
