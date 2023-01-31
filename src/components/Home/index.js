@@ -23,8 +23,8 @@ const Home = () => {
                 </SwiperSlide>
             </Swiper>
 
+            <h2 className='home__noticias--titulo'>ÚLTIMAS NOTÍCIAS</h2>
             <section className='home__noticias'>
-            <h2>ÚLTIMAS NOTÍCIAS</h2>
                 <div className='home__card'>
                     <div className='card__cabecalho'>
                         <h3>Feriado à vista!</h3>
