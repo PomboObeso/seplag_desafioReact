@@ -25,4 +25,27 @@ li {
     width: 400px;
 }
 
+.albuns__titulo {
+    margin-bottom: 1.5rem;
+}
+
+.albuns__lista {
+    display: flex;
+    column-gap: 2rem;   
+}
+
+.album__item--desc {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    background-color: var(--cinza-card);
+    border-radius: 8px;
+
+}
+
+.album__item--img {
+    width: 350px;
+}
 

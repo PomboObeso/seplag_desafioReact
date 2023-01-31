@@ -43,22 +43,19 @@ const Galeria = () => {
                 </ul>          
             </section>
             <section className='galeria__albuns'>
+                <h2 className='albuns__titulo'>ALBUMS</h2>
                 <ul className='albuns__lista'>
                     <li className='album__item'>
-                        <img className='album__item--img' src='./img/galeria1.png'/>
+                        <img className='album__item--img' src='./img/galeria2.png'/>
                         <p className='album__item--desc'>Julho . 2022</p>
                     </li>
                     <li className='album__item'>
-                        <img className='album__item--img' src='./img/galeria1.png'/>
-                        <p className='album__item--desc'>Julho . 2022</p>
+                        <img className='album__item--img' src='./img/galeria3.png'/>
+                        <p className='album__item--desc'>Junho . 2022</p>
                     </li>
                     <li className='album__item'>
-                        <img className='album__item--img' src='./img/galeria1.png'/>
-                        <p className='album__item--desc'>Julho . 2022</p>
-                    </li>
-                    <li className='album__item'>
-                        <img className='album__item--img' src='./img/galeria1.png'/>
-                        <p className='album__item--desc'>Julho . 2022</p>
+                        <img className='album__item--img' src='./img/galeria5.png'/>
+                        <p className='album__item--desc'>Maio . 2022</p>
                     </li>
                 </ul>
             </section>
