@@ -4,14 +4,15 @@ const Galeria = () => {
     return(
         <div className='main__galeria'>
             <section className='galeria__recentes'>
-                <div className='galeria__header>'>
-                    <h2>RECENTES</h2>
-                    <div className='galeria__pesquisa'>
-                        <label for='pesquisar' className='pesquisa__label'>
-                            <input className='pesquisa__input' type={'search'} id='pesquisar' placeholder='Pesquisar...'></input>
-                        </label>
-                    </div>
-                </div>
+                <ul className='galeria__header>'>
+                    <li className='galeria__header--titulo'>
+                        <h2>RECENTES</h2>
+                    </li>
+                    <li className='galeria__header--pesquisa'>
+                        <label for='pesquisar' className='pesquisa__label'></label>
+                        <input className='pesquisa__input' type={'search'} id='pesquisar' placeholder='        Pesquisar...'></input>
+                    </li>
+                </ul>
                 <ul className='galeria__imagens'>
                     <li className='galeria__item'>
                         <img className='item__img' src='./img/galeria1.png'/> 

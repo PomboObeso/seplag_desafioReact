@@ -6,6 +6,31 @@ li {
     margin: 5%;
 }
 
+.galeria__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galeria__header--titulo {
+    margin-left: 2rem;
+}
+
+.galeria__header--pesquisa{
+    text-align: end;
+    margin-right: 2rem;
+}
+
+.pesquisa__input {
+    width: 200px;
+    padding: .5rem;
+    border-radius: 1rem;
+    background-image: url('../../../public/icons/search.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 1rem;
+}
+
 .galeria__recentes {
     margin-bottom: 1.6rem;
 }
@@ -22,7 +47,7 @@ li {
 }
 
 .item__img{
-    width: 400px;
+    width: 300px;
 }
 
 .albuns__titulo {
