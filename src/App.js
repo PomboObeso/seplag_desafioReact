@@ -12,7 +12,7 @@ function App() {
       <Header/>
       <main>
         <Aside/>
-        <Home/>
+        {/* <Home/> */}
         {/* <Galeria/> */}
       </main>
       <SubFooter/>
