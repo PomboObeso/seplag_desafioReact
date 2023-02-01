@@ -1,8 +1,142 @@
-.noticia__card{
+.informe {
+    padding: 3% 6%;
+}
+
+.informe__head {
+    display: flex;
+}
+
+.informe__head--title {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.informe__head--img {
+    width: 1.2rem;
+    margin-right: 1rem;
+}
+
+.informe__card{
     display: flex;
     flex-direction: column;
     padding:5%;
     width: 90%;
+}
 
-    
+.informe__post {
+    font-weight: 300;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 3.0rem;
+    margin-bottom: 1.5rem;
+}
+
+.informe__title {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.informe__data {
+    margin-bottom: 2.5rem;
+}
+
+.informe__card hr {
+    border: none;
+    width: 50px;
+    height: 2px;
+    margin: 1rem 0;
+    background-color: #000;
+}
+
+.informe__rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informe__share{
+    display: flex;
+    align-items: center;
+}
+
+.informe__share--img {
+    width: 1.2rem;
+    margin-left: 1rem;
+}
+
+.informe__comentarios {
+    padding: 5%;
+}
+
+.comentarios__titulo {
+    margin-bottom: 1.5rem;
+}
+
+.comentario__input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.comentario__input--img {
+    padding: .5rem;
+    width: 48px;
+}
+
+.comentario__input--input {
+    border: none;
+    padding: .5rem 16rem;
+}
+
+comentario__input--input::placeholder {
+    font-size: 32px;
+}
+
+.comentario__input--enviar {
+    padding: .6rem 2rem;
+    background-color: #d9d9d9;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    margin-right: 0.5rem;
+}
+
+.comentarios__quantidade {
+    margin-bottom: 1.2rem;
+}
+
+.comentarios__lista {
+    display: flex;
+    flex-direction: column; 
+}
+
+.comentario__info {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-right: 1.2rem;
+}
+
+.comentario__info--img {
+    width: 64px;
+}
+
+.comentario__info--data {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.comentario__conteudo{
+    font-size: 1.2rem;
+    padding-left: 4.8rem;
+    color: rgba(0,0,0,0.25);
+    margin-bottom: 1.2rem;
+}
+
+.comentario__item hr {
+    margin-bottom: 1.2rem;
 }

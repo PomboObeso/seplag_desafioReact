@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Galeria from './components/Galeria';
 import Header from './components/Header';
 import Home from './components/Home';
+import Informe from './components/Informe';
 import Noticias from './components/Noticias';
 import SubFooter from './components/SubFooter';
 
@@ -15,7 +16,8 @@ function App() {
         <Aside/>
         {/* <Home/> */}
         {/* <Galeria/> */}
-        <Noticias/>
+        {/* <Noticias/> */}
+        <Informe/>
       </main>
       <SubFooter/>
       <Footer/>
