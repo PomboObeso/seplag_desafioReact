@@ -2,6 +2,24 @@
     padding: 5%;
 }
 
+.noticias__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 2.6rem;
+}
+
+.noticias__input {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 8px 16px;
+    border-radius: 16px;
+
+    background-image: url('../../../public/icons/search.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .noticias__lista {
     display: flex;
     flex-direction: column;
