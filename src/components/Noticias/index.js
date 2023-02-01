@@ -18,9 +18,10 @@ const Noticias = () => {
                                 </div>
                                 <article className='card__post'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales. 
-                                <br/>Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales. __
+                                <br/>Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.
                                 </article>
-                                <p className='card__autor'>Por Seplag</p>
+                                <hr/>
+                                <p className='card__autor'>Por <strong>Seplag</strong></p>
                             </div>
                         </li>
                         <li className='noticias__item'>
@@ -31,9 +32,10 @@ const Noticias = () => {
                                 </div>
                                 <article className='card__post'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales. 
-                                    <br/>Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales. __
+                                    <br/>Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales.
                                 </article>
-                                <p className='card__autor'>Por Seplag</p>
+                                <hr/>
+                                <p className='card__autor'>Por <strong>Seplag</strong></p>
                             </div>
                         </li>
                         <li className='noticias__item'>
@@ -45,7 +47,8 @@ const Noticias = () => {
                                 <article className='card__post'>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu molestie est, ac sollicitudin ligula. Curabitur nec enim et justo aliquam tristique ac eget orci. Quisque tempor neque nibh, pellentesque rutrum orci commodo quis. Curabitur volutpat erat et elit rutrum ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque laoreet sem nisi, in viverra metus euismod et. Aenean a eros id diam consequat sodales. 
                                 </article>
-                                <p className='card__autor'>Por Seplag</p>
+                                <hr/>
+                                <p className='card__autor'>Por <strong>Seplag</strong></p>
                             </div>
                         </li>
                     </ul>
